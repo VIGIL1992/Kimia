@@ -252,7 +252,7 @@
 }
 
 .main-menu .navigation > li:before{
-	position:absolute;
+	/* position:absolute;
 	content:'';
 	left:0px;
 	bottom:0px;
@@ -266,7 +266,7 @@
 	-o-transition:all 500ms ease;
 	background:url(../images/icons/menu-separater.png) repeat-x;
 	animation: slide 25s linear infinite;
-	-webkit-animation: slide 25s linear infinite;
+	-webkit-animation: slide 25s linear infinite; */
 }
 
 @keyframes slide{

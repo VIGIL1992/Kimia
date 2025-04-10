@@ -4,6 +4,17 @@
 <head>
     <meta charset="utf-8">
     <title>Starch| Kimia Lazeez</title>
+
+    <meta name="description" content="Kimia Lazeez was established in 2021 as a modern and innovative company specializing 
+									in providing high-quality solutions for the food industry. Equipped with cutting-edge 
+									technology, we manufacture and develop a wide range of products while adhering to the 
+									strictest regulatory standards worldwide. Our expertise includes the preparation of 
+									herbs and spices, customized blends for processed meat products, and specialized 
+									functional additives and flavors.">
+	<meta name="keywords" content="Kimia Lazeez, food, spices, Industrial Raw Materials, pixell media">
+    <meta name="author" content="Pixell Media Technologies | Midhun | Vigil Nath K K">
+
+
     <!-- Stylesheets -->
 
     <link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
@@ -37,11 +48,11 @@
         <section class="page-title" style="background-image: url(images/header/starch2.jpg)">
             <!-- <div class="pattern-layer" style="background-image: url(images/background/pattern-7.png)"></div> -->
             <div class="auto-container">
-                <h2>Products</h2>
+                <h2>Industrial Raw Materials</h2>
                 <ul class="page-breadcrumb">
                     <li><a href="index.php">home</a></li>
                     <li><a href="products.php">Products</a></li>
-                    <li>Starch Products</li>
+                    <li>Industrial Raw Materials</li>
                 </ul>
             </div>
         </section>
@@ -109,7 +120,7 @@
                             </div>
                             <ul class="list-style-two">
                                 <li>Starch
-                                    <ul class="list-style-one no-inherit">
+                                    <ul class="list-style-one no-inherit" style="text-align: justify;">
                                         <li>•	Native Starch – Derived from sources such as corn, potato, wheat, and tapioca, used in food, paper, and textile industries.</li>
                                         <li>•	Modified Starch – Specially treated to improve stability, viscosity, and performance in various applications.</li>
                                         <li>•	Pre-gelatinized Starch – Ideal for instant food products, providing thickening and binding properties without heating.</li>
@@ -125,22 +136,30 @@
                                 <li>Beta Carotene</li>
                                 <li>Potassium sorbate</li>
                             </ul>
+                            <style>
+                                .list-style-one.no-inherit li::before {
+                                all: unset !important;
+                                }
+
+                                .list-style-one.no-inherit li {
+                                    text-align: justify;
+                                    padding-left: 30px; /* space for bullet */
+                                    text-indent: -15px; /* pull bullet into left space */
+                                }
+                                .list-style-one li {
+                                    font-weight: 400;
+                                    padding-left: 30px;
+                                }
+                               
+                            </style>
                         </div>
                     </div>
                     
                 </div>
             </div>
+            
         </section>
-<style>
- .list-style-one.no-inherit li::before {
-  all: unset !important;
-}
-
-.list-style-one li {
-    font-weight: 400;
-    padding-left: 30px;
-}
-</style>
+        
 
 
 
@@ -150,8 +169,8 @@
 
                 <div class="sec-title centered">
                     <div class="title">Applications</div>
-                    <h2>Applications of Industrial Starch</h2>
-                    <div class="text">Our starch solutions cater to multiple industries, including:
+                    <h2>Applications of Industrial Raw Materials</h2>
+                    <div class="text">Our Raw Materials solutions cater to multiple industries, including:
 
                     </div>
                     <div class="separate"></div>
@@ -167,8 +186,10 @@
                             <div class="icon">
                                 <!-- <img src="images/icons/menu-1.png" alt="" /> -->
                             </div>
-                            <h6><a href="#">Food & Beverage Industry</a></h6>
-                            <div class="text">Used in sauces, soups, bakery products, dairy, processed meats, and confectionery for thickening, stabilizing, and texture enhancement.</div>
+                            <h6><a href="">Food & Beverage Industry </a></h6>
+                            <div class="text">
+                                Used in sauces, soups, bakery products, dairy, processed meats, and confectionery for thickening, stabilizing, and texture enhancement.
+                            </div>
                         </div>
                     </div>
 
@@ -181,8 +202,26 @@
                             <div class="icon">
                                 <!-- <img src="images/icons/menu-2.png" alt="" /> -->
                             </div>
-                            <h6><a href="#">Meat Processing</a></h6>
-                            <div class="text">Acts as a binder and moisture retainer, improving the texture of processed meat and poultry products.</div>
+                            <h6><a href="">Meat Processing</a></h6>
+                            <div class="text">
+                                Acts as a binder and moisture retainer, improving the texture of processed meat and poultry products.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dairy Industry -->
+                    <div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
+                        <div class="inner-box" style="min-height: 310px;">
+                            <div class="side-icon">
+                                <!-- <img src="images/icons/menu-icon-3.png" alt="" /> -->
+                            </div>
+                            <div class="icon">
+                                <!-- <img src="images/icons/menu-3.png" alt="" /> -->
+                            </div>
+                            <h6><a href="">Dairy Industry </a></h6>
+                            <div class="text">
+                                Helps create smooth, creamy textures in yogurts, puddings, and cheese products.
+                            </div>
                         </div>
                     </div>
 
@@ -195,13 +234,16 @@
                             <div class="icon">
                                 <!-- <img src="images/icons/menu-3.png" alt="" /> -->
                             </div>
-                            <h6><a href="#">Confectionery</a></h6>
-                            <div class="text">Enhances the texture of candies, gummies, and jellies. Paper & Textile Industry – Used in coating and adhesive applications for improved strength and quality.</div>
+                            <h6><a href="">Confectionery </a></h6>
+                            <div class="text">
+                                Enhances the texture of candies, gummies, and jellies.
+                            </div>
                         </div>
                     </div>
 
 
 
+                    
                     <!-- Menu Block Two -->
                     <div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box" style="min-height: 310px;">
@@ -211,21 +253,10 @@
                             <div class="icon">
                                 <!-- <img src="images/icons/menu-3.png" alt="" /> -->
                             </div>
-                            <h6><a href="#">Paper & Textile Industry</a></h6>
-                            <div class="text">Used in coating and adhesive applications for improved strength and quality.</div>
-                        </div>
-                    </div>
-                    <!-- Menu Block Two -->
-                    <div class="menu-block-two col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box" style="min-height: 310px;">
-                            <div class="side-icon">
-                                <!-- <img src="images/icons/menu-icon-3.png" alt="" /> -->
+                            <h6><a href="">Pharmaceuticals & Cosmetics </a></h6>
+                            <div class="text">
+                                A key ingredient in tablet binding and cosmetic formulations.
                             </div>
-                            <div class="icon">
-                                <!-- <img src="images/icons/menu-3.png" alt="" /> -->
-                            </div>
-                            <h6><a href="#">Pharmaceuticals & Cosmetics</a></h6>
-                            <div class="text">A key ingredient in tablet binding and cosmetic formulations.</div>
                         </div>
                     </div>
 
@@ -242,7 +273,7 @@
                 <!-- Sec Title -->
                 <div class="sec-title centered">
                     <div class="title">Why Choose</div>
-                    <h2>Why Choose Kimia Lazeez for Starch?</h2>
+                    <h2>Why Choose Kimia Lazeez for Raw Materials?</h2>
                     <div class="separate"></div>
                 </div>
                 <div class="row clearfix">
@@ -253,15 +284,15 @@
                         <ul class="accordion-box">
 
                             <!--Block-->
-                            <li class="accordion block">
+                            <li class="accordion block active-block">
                                 <div class="acc-btn">
                                     <div class="icon-outer"><span class="icon icon-plus flaticon-plus-symbol"></span> <span class="icon icon-minus flaticon-substract"></span></div><span>01.</span>
-                                    Global Sourcing
+                                    Global Sourcing 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
                                         <div class="text">
-                                            <p>We import high-quality starch from trusted international suppliers.</p>
+                                            <p>We import high-quality Raw Materials  from trusted international suppliers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -313,7 +344,7 @@
                             <li class="accordion block">
                                 <div class="acc-btn">
                                     <div class="icon-outer"><span class="icon icon-plus flaticon-plus-symbol"></span> <span class="icon icon-minus flaticon-substract"></span></div><span>04.</span>
-                                    Sustainable & Reliable
+                                    Sustainable & Reliable 
                                 </div>
                                 <div class="acc-content">
                                     <div class="content">
@@ -331,9 +362,15 @@
                 </div>
 
                 <div class="text">
-                    <p>At Kimia Lazeez, we are committed to providing premium starch solutions that enhance product performance across various industries. <br>
+                    <p>
+                        At Kimia Lazeez, we are committed to providing premium starch solutions that enhance product performance 
+                        across various industries.At Kimia Lazeez, we are committed to providing premium Raw Materials solutions 
+                        that enhance product performance across various industries. 
+                        
+                        <br>
 
-                        Unlock the power of starch with Kimia Lazeez – where innovation meets quality.</p>
+                        <strong>Unlock the power of starch with Kimia Lazeez – where innovation meets quality.</strong>
+                    </p>
                 </div>
             </div>
         </section>

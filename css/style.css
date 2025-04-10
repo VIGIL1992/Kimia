@@ -4836,6 +4836,10 @@
 	overflow:hidden;
 	padding:150px 0px 250px;
 	background-size:cover;
+
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .page-title .pattern-layer{

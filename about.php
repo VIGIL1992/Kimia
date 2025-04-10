@@ -4,6 +4,17 @@
 <head>
 	<meta charset="utf-8">
 	<title>Who We Are| Kimia Lazeez</title>
+
+	<meta name="description" content="Kimia Lazeez was established in 2021 as a modern and innovative company specializing 
+									in providing high-quality solutions for the food industry. Equipped with cutting-edge 
+									technology, we manufacture and develop a wide range of products while adhering to the 
+									strictest regulatory standards worldwide. Our expertise includes the preparation of 
+									herbs and spices, customized blends for processed meat products, and specialized 
+									functional additives and flavors.">
+	<meta name="keywords" content="Kimia Lazeez, food, spices, Industrial Raw Materials, pixell media">
+    <meta name="author" content="Pixell Media Technologies | Midhun | Vigil Nath K K">
+
+	
 	<!-- Stylesheets -->
 
 	<link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
@@ -18,7 +29,7 @@
 
 
 	<?php
-	include('inc/header.php');
+		include('inc/header.php');
 	?>
 
 
@@ -30,7 +41,7 @@
 	<div class="page-wrapper">
 
 		<?php
-		include('inc/navbar.php');
+			include('inc/navbar.php');
 		?>
 
 		<!-- Page Title -->
@@ -294,7 +305,7 @@
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
 
 	<?php
-	include('inc/scripts.php');
+		include('inc/scripts.php');
 	?>
 
 </body>

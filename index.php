@@ -4,6 +4,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Kimia Lazeez</title>
+
+	<meta name="description" content="Kimia Lazeez was established in 2021 as a modern and innovative company specializing 
+									in providing high-quality solutions for the food industry. Equipped with cutting-edge 
+									technology, we manufacture and develop a wide range of products while adhering to the 
+									strictest regulatory standards worldwide. Our expertise includes the preparation of 
+									herbs and spices, customized blends for processed meat products, and specialized 
+									functional additives and flavors.">
+	<meta name="keywords" content="Kimia Lazeez, food, spices, Industrial Raw Materials, pixell media">
+    <meta name="author" content="Pixell Media Technologies | Midhun | Vigil Nath K K">
 	<!-- Stylesheets -->
 
 	<link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
@@ -38,20 +47,25 @@
 		<!-- Banner Section -->
 		<section class="banner-section">
 			<!-- <div class="pattern-layer" style="background-image: url(images/main-slider/pattern-1.png)"></div> -->
-			<div class="" 
-				style="
+			<div class="banner-image"></div>
+
+
+			<style>
+				.banner-image {
 					background-image: url(images/home/kimia-01.jpg);
 					height: 80vh;
 					background-position: center;
 					background-size: cover;
 					background-repeat: no-repeat;
-				"
-				>
+				}
 
-			
-
-
-			</div>
+				/* Responsive height for small screens */
+				@media screen and (max-width: 450px) {
+					.banner-image {
+					height: 50vh;
+					}
+				}
+			</style>
 
 		</section>
 		<!-- End Banner Section -->
@@ -128,8 +142,8 @@
 				</div>
 
 				<!-- Image Column -->
-				<div class="image-column" style="background-image:url(images/home/kimia-05.jpg);     border-radius: 40px;">
-					<figure class="image-box"><img src="images/home/kimia-05.jpg" alt=""></figure>
+				<div class="image-column" style="background-image:url(images/home/kimia-05.webp);     border-radius: 40px;">
+					<figure class="image-box"><img src="images/home/kimia-05.webp" alt=""></figure>
 				</div>
 
 			</div>
@@ -158,59 +172,45 @@
 
 
 					<!-- Beverage Column -->
-					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="beverage-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
 							<div class="image">
-								<a href="spices.php"><img src="images/product/spices/ketchup.jpg" alt="" /></a>
+								<a href="spices.php"><img src="images/product/formulated_spice.webp" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h6><a href="spices.php">Ketchup</a></h6>
+								<h6><a href="spices.php">Formulated Spice </a></h6>
 
 							</div>
 						</div>
 					</div>
 
 					<!-- Beverage Column -->
-					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="beverage-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
 							<div class="image">
-								<a href="spices.php"><img src="images/product/spices/bbq.jpg" alt="" /></a>
+								<a href="spices.php"><img src="images/product/grounded_spices.webp" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h6><a href="spices.php">BBQ</a></h6>
+								<h6><a href="spices.php">Ground Spices </a></h6>
 
 							</div>
 						</div>
 					</div>
 
 					<!-- Beverage Column -->
-					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+					<div class="beverage-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
 							<div class="image">
-								<a href="spices.php"><img src="images/product/spices/paprika.jpg" alt="" /></a>
+								<a href="spices.php"><img src="images/product/spices-herbs.webp" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h6><a href="spices.php">Paprika</a></h6>
+								<h6><a href="spices.php">Herbs & Specialty Mixes </a></h6>
 
 							</div>
 						</div>
 					</div>
 
-					<!-- Beverage Column -->
-					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<a href="spices.php"><img src="images/product/spices/garlic.jpg" alt="" /></a>
-							</div>
-							<div class="lower-content">
-								<h6><a href="spices.php">Garlic Powder</a></h6>
-
-							</div>
-						</div>
-
-
-					</div>
-
+					
 
 
 				</div>
@@ -222,10 +222,10 @@
 				</div>
 			</div>
 		</section>
-		<!-- End Beverage Section -->
+		<!-- End Spices Section -->
 
 
-		<!-- Beverage Section -->
+		<!-- Industrial Raw Materials Section -->
 		<section class="beverage-section">
 			<div class="icon-layer"></div>
 			<div class="auto-container">
@@ -261,20 +261,7 @@
 					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
 							<div class="image">
-								<a href="starch.php"><img src="images/starch/potato1.jpg" alt="" /></a>
-							</div>
-							<div class="lower-content">
-								<h6><a href="starch.php">Xanthan</a></h6>
-
-							</div>
-						</div>
-					</div>
-
-					<!-- Beverage Column -->
-					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
-						<div class="inner-box">
-							<div class="image">
-								<a href="starch.php"><img src="images/starch/wheat.jpg" alt="" /></a>
+								<a href="starch.php"><img src="images/product/carrageenan.webp" alt="" /></a>
 							</div>
 							<div class="lower-content">
 								<h6><a href="starch.php">Carrageenan</a></h6>
@@ -287,10 +274,23 @@
 					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
 						<div class="inner-box">
 							<div class="image">
-								<a href="starch.php"><img src="images/starch/tapioca2.jpg" alt="" /></a>
+								<a href="starch.php"><img src="images/product/powdered-eggs.webp" alt="" /></a>
 							</div>
 							<div class="lower-content">
-								<h6><a href="starch.php">Potassium sorbate</a></h6>
+								<h6><a href="starch.php">Egg Yolk Powder</a></h6>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- Beverage Column -->
+					<div class="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image">
+								<a href="starch.php"><img src="images/product/potassium_sorbate.webp" alt="" /></a>
+							</div>
+							<div class="lower-content">
+								<h6><a href="starch.php">Potassium Sorbate</a></h6>
 
 							</div>
 						</div>
@@ -307,7 +307,7 @@
 
 			</div>
 		</section>
-		<!-- End Beverage Section -->
+		<!-- End Industrial Raw Materials Section -->
 
 
 
